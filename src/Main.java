@@ -9,9 +9,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        minSubArrayLen_209 minSubArrayLen_209 = new minSubArrayLen_209();
-        int res = minSubArrayLen_209.solution();
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        restoreIpAddresses_93 restoreIpAddresses_93 = new restoreIpAddresses_93();
+        List<String> res = restoreIpAddresses_93.solution(s);
         System.out.println(res);
 
     }
