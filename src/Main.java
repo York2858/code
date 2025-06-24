@@ -9,11 +9,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        restoreIpAddresses_93 restoreIpAddresses_93 = new restoreIpAddresses_93();
-        List<String> res = restoreIpAddresses_93.solution(s);
-        System.out.println(res);
+
+        subsetsWithDup_90 subsetsWithDup_90 = new subsetsWithDup_90();
+        List<List<Integer>> res = subsetsWithDup_90.solution();
+        for (List<Integer> list : res) {
+            System.out.println(list);
+        }
 
     }
 
