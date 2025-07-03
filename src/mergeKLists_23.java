@@ -9,7 +9,7 @@ public class mergeKLists_23 {
         if(l > r) return null;
         if(l == r) return lists[l];
         int mid = l + (r-l) / 2;
-        ListNode left = meger(lists,0,mid);
+        ListNode left = meger(lists,l,mid);
         ListNode right = meger(lists,mid+1,r);
         return megerTwo(left,right);
     }
